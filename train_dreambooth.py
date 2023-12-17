@@ -21,7 +21,7 @@ from accelerate.utils import set_seed
 from diffusers import AutoencoderKL, DDIMScheduler, DDPMScheduler, StableDiffusionPipeline, UNet2DConditionModel
 from diffusers.optimization import get_scheduler
 from diffusers.utils.import_utils import is_xformers_available
-from huggingface_hub import HfFolder, whoami
+from huggingface_hub import HfFolder, Repository, whoami
 from PIL import Image
 from torchvision import transforms
 from tqdm.auto import tqdm
@@ -71,7 +71,7 @@ def parse_args(input_args=None):
     parser.add_argument(
         "--class_data_dir",
         type=str,
-        default="",
+        default=None,
         help="A folder containing the training data of class images.",
     )
     parser.add_argument(
@@ -502,7 +502,8 @@ def main(args):
                     ):
                         images = pipeline(
                             example["prompt"],
-                            num_inference_steps=args.save_infer_steps).images
+                            num_inference_steps=args.save_infer_steps
+                            ).images
 
                         for i, image in enumerate(images):
                             hash_image = hashlib.sha1(image.tobytes()).hexdigest()
