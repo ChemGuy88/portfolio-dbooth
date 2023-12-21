@@ -1,0 +1,537 @@
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torchvision\io\image.py:13: UserWarning: Failed to load image Python extension: '[WinError 127] The specified procedure could not be found'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\accelerate\accelerator.py:371: UserWarning: `log_with=tensorboard` was passed but no supported trackers are currently installed.
+  warnings.warn(f"`log_with={log_with}` was passed but no supported trackers are currently installed.")
+
+Downloading model_index.json:   0%|          | 0.00/543 [00:00<?, ?B/s]
+Downloading model_index.json: 100%|██████████| 543/543 [00:00<?, ?B/s] 
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\huggingface_hub\file_download.py:137: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\herman\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to see activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+unet\diffusion_pytorch_model.safetensors not found
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+
+Downloading (…)_checker/config.json:   0%|          | 0.00/4.70k [00:00<?, ?B/s][A
+Downloading (…)_checker/config.json: 100%|██████████| 4.70k/4.70k [00:00<00:00, 4.70MB/s]
+
+
+Downloading (…)rocessor_config.json:   0%|          | 0.00/342 [00:00<?, ?B/s][A
+Downloading (…)rocessor_config.json: 100%|██████████| 342/342 [00:00<00:00, 345kB/s]
+
+Fetching 13 files:   8%|▊         | 1/13 [00:01<00:20,  1.68s/it]
+
+Downloading (…)_encoder/config.json:   0%|          | 0.00/636 [00:00<?, ?B/s][A
+Downloading (…)_encoder/config.json: 100%|██████████| 636/636 [00:00<?, ?B/s] 
+
+
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/472 [00:00<?, ?B/s][A
+Downloading (…)cial_tokens_map.json: 100%|██████████| 472/472 [00:00<?, ?B/s] 
+
+
+Downloading tokenizer/merges.txt:   0%|          | 0.00/525k [00:00<?, ?B/s][A
+
+
+Downloading (…)cheduler_config.json:   0%|          | 0.00/307 [00:00<?, ?B/s][A[A
+Downloading (…)cheduler_config.json: 100%|██████████| 307/307 [00:00<?, ?B/s] 
+
+
+
+Downloading (…)okenizer_config.json:   0%|          | 0.00/822 [00:00<?, ?B/s][A[A
+Downloading (…)okenizer_config.json: 100%|██████████| 822/822 [00:00<?, ?B/s] 
+
+Downloading tokenizer/merges.txt: 100%|██████████| 525k/525k [00:00<00:00, 8.74MB/s]
+
+
+Downloading unet/config.json:   0%|          | 0.00/806 [00:00<?, ?B/s][A
+Downloading unet/config.json: 100%|██████████| 806/806 [00:00<?, ?B/s] 
+
+
+Downloading tokenizer/vocab.json:   0%|          | 0.00/1.06M [00:00<?, ?B/s][A
+
+
+Downloading vae/config.json:   0%|          | 0.00/609 [00:00<?, ?B/s][A[A
+Downloading vae/config.json: 100%|██████████| 609/609 [00:00<?, ?B/s] 
+
+
+Downloading tokenizer/vocab.json: 100%|██████████| 1.06M/1.06M [00:00<00:00, 7.88MB/s][A
+Downloading tokenizer/vocab.json: 100%|██████████| 1.06M/1.06M [00:00<00:00, 7.82MB/s]
+
+
+Downloading pytorch_model.bin:   0%|          | 0.00/246M [00:00<?, ?B/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   0%|          | 0.00/1.72G [00:00<?, ?B/s][A[A
+
+Downloading pytorch_model.bin:   4%|▍         | 10.5M/246M [00:00<00:05, 41.6MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   1%|          | 10.5M/1.72G [00:00<00:37, 45.0MB/s][A[A
+
+Downloading pytorch_model.bin:  13%|█▎        | 31.5M/246M [00:00<00:04, 53.2MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   2%|▏         | 31.5M/1.72G [00:00<00:26, 64.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:   2%|▏         | 41.9M/1.72G [00:00<00:25, 64.9MB/s][A[A
+
+Downloading pytorch_model.bin:  21%|██▏       | 52.4M/246M [00:00<00:02, 65.2MB/s][A
+
+Downloading pytorch_model.bin:  30%|██▉       | 73.4M/246M [00:01<00:02, 84.5MB/s][A
+
+Downloading pytorch_model.bin:  34%|███▍      | 83.9M/246M [00:01<00:02, 71.6MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   3%|▎         | 52.4M/1.72G [00:01<00:44, 37.1MB/s][A[A
+
+Downloading pytorch_model.bin:  43%|████▎     | 105M/246M [00:01<00:01, 78.7MB/s] [A
+
+
+Downloading (…)on_pytorch_model.bin:   4%|▍         | 73.4M/1.72G [00:01<00:29, 55.9MB/s][A[A
+
+Downloading pytorch_model.bin:  51%|█████     | 126M/246M [00:01<00:01, 93.8MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   5%|▍         | 83.9M/1.72G [00:01<00:29, 56.4MB/s][A[A
+
+Downloading pytorch_model.bin:  55%|█████▌    | 136M/246M [00:01<00:01, 77.3MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   6%|▌         | 105M/1.72G [00:01<00:27, 59.3MB/s] [A[A
+
+Downloading pytorch_model.bin:  64%|██████▍   | 157M/246M [00:02<00:01, 75.7MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   7%|▋         | 115M/1.72G [00:02<00:25, 63.0MB/s][A[A
+
+Downloading pytorch_model.bin:  72%|███████▏  | 178M/246M [00:02<00:00, 91.2MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   8%|▊         | 136M/1.72G [00:02<00:26, 59.8MB/s][A[A
+
+Downloading pytorch_model.bin:  77%|███████▋  | 189M/246M [00:02<00:00, 68.7MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:   9%|▉         | 157M/1.72G [00:02<00:25, 62.2MB/s][A[A
+
+Downloading pytorch_model.bin:  85%|████████▌ | 210M/246M [00:02<00:00, 60.7MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:  10%|█         | 178M/1.72G [00:02<00:20, 76.2MB/s][A[A
+
+Downloading pytorch_model.bin:  89%|████████▉ | 220M/246M [00:03<00:00, 65.5MB/s][A
+
+
+Downloading (…)on_pytorch_model.bin:  11%|█         | 189M/1.72G [00:03<00:24, 63.2MB/s][A[A
+
+Downloading pytorch_model.bin:  98%|█████████▊| 241M/246M [00:03<00:00, 73.3MB/s][A
+Downloading pytorch_model.bin: 100%|██████████| 246M/246M [00:03<00:00, 73.2MB/s]
+
+Fetching 13 files:  46%|████▌     | 6/13 [00:06<00:07,  1.00s/it]
+
+
+Downloading (…)on_pytorch_model.bin:  12%|█▏        | 210M/1.72G [00:03<00:24, 61.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  13%|█▎        | 231M/1.72G [00:03<00:19, 76.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  14%|█▍        | 241M/1.72G [00:03<00:21, 68.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  15%|█▌        | 262M/1.72G [00:04<00:21, 68.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  16%|█▋        | 283M/1.72G [00:04<00:17, 82.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  17%|█▋        | 294M/1.72G [00:04<00:23, 59.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  18%|█▊        | 315M/1.72G [00:04<00:20, 68.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  20%|█▉        | 336M/1.72G [00:05<00:16, 83.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  20%|██        | 346M/1.72G [00:05<00:20, 67.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  21%|██▏       | 367M/1.72G [00:05<00:19, 68.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  22%|██▏       | 377M/1.72G [00:05<00:20, 66.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  23%|██▎       | 398M/1.72G [00:06<00:18, 73.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  24%|██▍       | 409M/1.72G [00:06<00:18, 71.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  24%|██▍       | 419M/1.72G [00:06<00:22, 56.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  26%|██▌       | 440M/1.72G [00:06<00:17, 75.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  26%|██▌       | 451M/1.72G [00:06<00:20, 62.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  27%|██▋       | 472M/1.72G [00:07<00:16, 73.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  29%|██▊       | 493M/1.72G [00:07<00:13, 89.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  29%|██▉       | 503M/1.72G [00:07<00:16, 72.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  30%|██▉       | 514M/1.72G [00:07<00:16, 72.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  30%|███       | 524M/1.72G [00:07<00:15, 76.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  32%|███▏      | 545M/1.72G [00:07<00:12, 95.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  32%|███▏      | 556M/1.72G [00:08<00:17, 67.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  33%|███▎      | 566M/1.72G [00:08<00:16, 69.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  34%|███▎      | 577M/1.72G [00:08<00:17, 65.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  35%|███▍      | 598M/1.72G [00:08<00:13, 84.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  35%|███▌      | 608M/1.72G [00:08<00:15, 71.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  37%|███▋      | 629M/1.72G [00:09<00:15, 69.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  38%|███▊      | 650M/1.72G [00:09<00:12, 83.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  38%|███▊      | 661M/1.72G [00:09<00:20, 52.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  39%|███▉      | 671M/1.72G [00:10<00:18, 56.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  40%|███▉      | 682M/1.72G [00:10<00:16, 63.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  40%|████      | 692M/1.72G [00:10<00:18, 54.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  41%|████      | 703M/1.72G [00:10<00:17, 56.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  41%|████▏     | 713M/1.72G [00:10<00:15, 63.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  42%|████▏     | 724M/1.72G [00:10<00:14, 70.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  43%|████▎     | 734M/1.72G [00:11<00:18, 52.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  43%|████▎     | 744M/1.72G [00:11<00:18, 53.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  44%|████▍     | 755M/1.72G [00:11<00:18, 52.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  45%|████▍     | 765M/1.72G [00:11<00:15, 60.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  45%|████▌     | 776M/1.72G [00:11<00:13, 69.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  46%|████▌     | 786M/1.72G [00:12<00:16, 56.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  47%|████▋     | 807M/1.72G [00:12<00:12, 70.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  48%|████▊     | 818M/1.72G [00:12<00:15, 57.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  48%|████▊     | 828M/1.72G [00:12<00:15, 56.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  49%|████▉     | 839M/1.72G [00:12<00:17, 51.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  50%|█████     | 860M/1.72G [00:13<00:12, 70.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  51%|█████     | 870M/1.72G [00:13<00:14, 58.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  51%|█████     | 881M/1.72G [00:13<00:13, 63.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  52%|█████▏    | 891M/1.72G [00:13<00:14, 56.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  53%|█████▎    | 912M/1.72G [00:13<00:10, 74.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  54%|█████▎    | 923M/1.72G [00:14<00:13, 60.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  54%|█████▍    | 933M/1.72G [00:14<00:13, 56.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  55%|█████▍    | 944M/1.72G [00:14<00:18, 42.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  55%|█████▌    | 954M/1.72G [00:14<00:15, 48.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  57%|█████▋    | 975M/1.72G [00:15<00:14, 52.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  57%|█████▋    | 986M/1.72G [00:15<00:15, 47.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  58%|█████▊    | 996M/1.72G [00:15<00:15, 48.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  59%|█████▉    | 1.02G/1.72G [00:15<00:10, 64.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  60%|█████▉    | 1.03G/1.72G [00:16<00:12, 57.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  61%|██████    | 1.05G/1.72G [00:16<00:10, 61.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  62%|██████▏   | 1.06G/1.72G [00:16<00:10, 64.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  63%|██████▎   | 1.08G/1.72G [00:17<00:10, 60.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  63%|██████▎   | 1.09G/1.72G [00:17<00:09, 65.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  64%|██████▍   | 1.10G/1.72G [00:17<00:11, 52.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  65%|██████▍   | 1.11G/1.72G [00:17<00:11, 52.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  66%|██████▌   | 1.13G/1.72G [00:17<00:09, 59.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  66%|██████▋   | 1.14G/1.72G [00:18<00:10, 55.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  67%|██████▋   | 1.15G/1.72G [00:18<00:13, 42.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  68%|██████▊   | 1.16G/1.72G [00:18<00:11, 47.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  68%|██████▊   | 1.17G/1.72G [00:18<00:10, 49.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  69%|██████▉   | 1.18G/1.72G [00:19<00:11, 45.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  70%|███████   | 1.21G/1.72G [00:19<00:08, 60.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  71%|███████▏  | 1.23G/1.72G [00:19<00:06, 74.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  72%|███████▏  | 1.24G/1.72G [00:19<00:08, 59.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  73%|███████▎  | 1.26G/1.72G [00:20<00:07, 62.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  74%|███████▍  | 1.27G/1.72G [00:20<00:06, 68.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  74%|███████▍  | 1.28G/1.72G [00:20<00:06, 72.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  75%|███████▌  | 1.29G/1.72G [00:20<00:05, 77.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  76%|███████▌  | 1.31G/1.72G [00:20<00:05, 71.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  77%|███████▋  | 1.33G/1.72G [00:21<00:04, 88.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  78%|███████▊  | 1.34G/1.72G [00:21<00:05, 72.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  79%|███████▉  | 1.36G/1.72G [00:21<00:04, 82.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  81%|████████  | 1.38G/1.72G [00:21<00:03, 90.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  81%|████████  | 1.39G/1.72G [00:21<00:04, 73.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  82%|████████▏ | 1.41G/1.72G [00:22<00:04, 69.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  82%|████████▏ | 1.42G/1.72G [00:22<00:05, 53.3MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  83%|████████▎ | 1.43G/1.72G [00:22<00:05, 53.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  84%|████████▍ | 1.45G/1.72G [00:22<00:04, 61.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  85%|████████▌ | 1.47G/1.72G [00:23<00:03, 68.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  87%|████████▋ | 1.49G/1.72G [00:23<00:03, 75.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  87%|████████▋ | 1.50G/1.72G [00:23<00:03, 67.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  88%|████████▊ | 1.51G/1.72G [00:23<00:02, 73.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  88%|████████▊ | 1.52G/1.72G [00:23<00:03, 59.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  89%|████████▉ | 1.53G/1.72G [00:24<00:03, 59.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  90%|█████████ | 1.55G/1.72G [00:24<00:03, 54.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  91%|█████████▏| 1.57G/1.72G [00:24<00:02, 61.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  92%|█████████▏| 1.58G/1.72G [00:25<00:02, 57.8MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  93%|█████████▎| 1.59G/1.72G [00:25<00:02, 61.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  93%|█████████▎| 1.60G/1.72G [00:25<00:01, 60.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  94%|█████████▍| 1.61G/1.72G [00:25<00:01, 62.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  95%|█████████▍| 1.63G/1.72G [00:25<00:01, 63.5MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  95%|█████████▌| 1.64G/1.72G [00:25<00:01, 63.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  96%|█████████▌| 1.65G/1.72G [00:26<00:01, 57.7MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  96%|█████████▋| 1.66G/1.72G [00:26<00:01, 51.6MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  97%|█████████▋| 1.67G/1.72G [00:26<00:00, 52.9MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  98%|█████████▊| 1.68G/1.72G [00:26<00:00, 52.1MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  98%|█████████▊| 1.69G/1.72G [00:27<00:00, 36.4MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  99%|█████████▉| 1.70G/1.72G [00:27<00:00, 44.0MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin:  99%|█████████▉| 1.71G/1.72G [00:27<00:00, 46.2MB/s][A[A
+
+
+Downloading (…)on_pytorch_model.bin: 100%|██████████| 1.72G/1.72G [00:27<00:00, 43.9MB/s][A[A
+Downloading (…)on_pytorch_model.bin: 100%|██████████| 1.72G/1.72G [00:27<00:00, 61.8MB/s]
+
+Fetching 13 files:  92%|█████████▏| 12/13 [00:30<00:02,  2.88s/it]
+Fetching 13 files: 100%|██████████| 13/13 [00:30<00:00,  2.38s/it]
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\transformers\models\clip\feature_extraction_clip.py:28: FutureWarning: The class CLIPFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use CLIPImageProcessor instead.
+  warnings.warn(
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+12/16/2023 21:41:31 - INFO - __main__ - Number of class images to sample: 50.
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torch\amp\autocast_mode.py:250: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+
+Generating class images:   0%|          | 0/13 [00:00<?, ?it/s]
+Generating class images:   8%|▊         | 1/13 [19:45<3:57:02, 1185.19s/it]
+Generating class images:  15%|█▌        | 2/13 [40:21<3:42:45, 1215.07s/it]
+Generating class images:  23%|██▎       | 3/13 [1:13:02<4:19:19, 1555.91s/it]
+Generating class images:  31%|███       | 4/13 [1:45:11<4:15:28, 1703.17s/it]
+Generating class images:  38%|███▊      | 5/13 [2:17:26<3:58:15, 1786.89s/it]
+Generating class images:  46%|████▌     | 6/13 [2:49:19<3:33:28, 1829.74s/it]
+Generating class images:  54%|█████▍    | 7/13 [3:21:14<3:05:45, 1857.58s/it]
+Generating class images:  62%|██████▏   | 8/13 [3:53:08<2:36:17, 1875.54s/it]
+Generating class images:  69%|██████▉   | 9/13 [4:24:55<2:05:40, 1885.24s/it]
+Generating class images:  77%|███████▋  | 10/13 [4:56:51<1:34:44, 1894.93s/it]
+Generating class images:  85%|████████▍ | 11/13 [5:28:43<1:03:20, 1900.04s/it]
+Generating class images:  92%|█████████▏| 12/13 [6:00:36<31:43, 1903.98s/it]  
+Generating class images: 100%|██████████| 13/13 [6:18:21<00:00, 1649.73s/it]
+Generating class images: 100%|██████████| 13/13 [6:18:21<00:00, 1746.25s/it]
+
+Downloading (…)on_pytorch_model.bin:   0%|          | 0.00/167M [00:00<?, ?B/s]
+Downloading (…)on_pytorch_model.bin:   6%|▋         | 10.5M/167M [00:00<00:05, 29.3MB/s]
+Downloading (…)on_pytorch_model.bin:  13%|█▎        | 21.0M/167M [00:00<00:02, 50.7MB/s]
+Downloading (…)on_pytorch_model.bin:  19%|█▉        | 31.5M/167M [00:00<00:03, 42.9MB/s]
+Downloading (…)on_pytorch_model.bin:  25%|██▌       | 41.9M/167M [00:00<00:02, 47.6MB/s]
+Downloading (…)on_pytorch_model.bin:  31%|███▏      | 52.4M/167M [00:01<00:02, 55.7MB/s]
+Downloading (…)on_pytorch_model.bin:  38%|███▊      | 62.9M/167M [00:01<00:01, 60.8MB/s]
+Downloading (…)on_pytorch_model.bin:  50%|█████     | 83.9M/167M [00:01<00:01, 56.5MB/s]
+Downloading (…)on_pytorch_model.bin:  63%|██████▎   | 105M/167M [00:01<00:01, 62.0MB/s] 
+Downloading (…)on_pytorch_model.bin:  75%|███████▌  | 126M/167M [00:02<00:00, 78.8MB/s]
+Downloading (…)on_pytorch_model.bin:  81%|████████▏ | 136M/167M [00:02<00:00, 54.4MB/s]
+Downloading (…)on_pytorch_model.bin:  94%|█████████▍| 157M/167M [00:02<00:00, 65.1MB/s]
+Downloading (…)on_pytorch_model.bin: 100%|██████████| 167M/167M [00:02<00:00, 61.0MB/s]
+Downloading (…)on_pytorch_model.bin: 100%|██████████| 167M/167M [00:02<00:00, 58.1MB/s]
+12/17/2023 04:00:11 - WARNING - __main__ - xformers is not available. Make sure it is installed correctly
+c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\diffusers\configuration_utils.py:217: FutureWarning: It is deprecated to pass a pretrained model name or path to `from_config`.If you were trying to load a scheduler, please use <class 'diffusers.schedulers.scheduling_ddpm.DDPMScheduler'>.from_pretrained(...) instead. Otherwise, please make sure to pass a configuration dictionary instead. This functionality will be removed in v1.0.0.
+  deprecate("config-passed-as-path", "1.0.0", deprecation_message, standard_warn=False)
+
+Downloading (…)cheduler_config.json:   0%|          | 0.00/308 [00:00<?, ?B/s]
+Downloading (…)cheduler_config.json: 100%|██████████| 308/308 [00:00<?, ?B/s] 
+
+Caching latents:   0%|          | 0/50 [00:00<?, ?it/s]
+Caching latents:   0%|          | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Users\herman\Documents\GitHub\portfolio-dbooth\train_dreambooth.py", line 869, in <module>
+    main(args)
+  File "c:\Users\herman\Documents\GitHub\portfolio-dbooth\train_dreambooth.py", line 651, in main
+    for batch in tqdm(train_dataloader, desc="Caching latents"):
+  File "c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\tqdm\std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torch\utils\data\dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\herman\Anaconda3\envs\hdbtest1\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "c:\Users\herman\Documents\GitHub\portfolio-dbooth\train_dreambooth.py", line 335, in __getitem__
+    instance_path, instance_prompt = self.instance_images_path[index % self.num_instance_images]
+                                                               ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: integer modulo by zero
